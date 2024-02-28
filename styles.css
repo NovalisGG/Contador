@@ -1,0 +1,39 @@
+body{
+    background-color: #4eabe8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor{
+    background: #7dc0ee;
+    border-color: black;
+    border-width: 10px;
+    height: 390px;
+    width: 390px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contenedor #contador{
+    font-size: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor button{
+    background-color: rgb(105, 97, 97);
+    color: #fff;
+    border: none;
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contenedor #contenedorDiv{
+    display: inline-block;
+}
